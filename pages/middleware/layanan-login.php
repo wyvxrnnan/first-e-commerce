@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../../assets/styles/layanan.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+        <script src="../../assets/scripts/header-login.js" type="text/javascript" defer></script>
+        <script src="../../assets/scripts/footer-login.js" type="text/javascript" defer></script>
+
+        <title>Layanan</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <!--navigation-->
+
+            <header-component></header-component>
+
+            <!--content-->
+
+            <div class="content">
+                <div class="text">
+                    <h1>
+                        Layanan
+                    </h1>
+                    <p>
+                        kami juga ada di beberapa platform lain!
+                    </p>
+                </div>
+
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-header">Gojek</div>
+                        <div class="card-main">
+                            <img src="../../assets/images/produk/Gofood-Logo.png" alt="gofood" width="90%">
+                            <div class="link"><a href="https://gofood.link/u/gkDnZW" target="_blank"><button>Bawa Saya</button></a></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">Grab</div>
+                        <div class="card-main">
+                            <img src="../../assets/images/produk/GrabFood.png" alt="gofood" width="50%">
+                            <div class="link"><a href="https://food.grab.com/id/id/restaurant/nasee-funfine-cilebut-barat-delivery/6-C2AUE2ETVUAZEE" target="_blank"><button>Bawa Saya</button></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--footer-->
+            
+            <footer-component></footer-component>
+        </div>
+    </body>
+</html>
